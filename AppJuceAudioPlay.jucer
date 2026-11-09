@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Eu4M6N" name="AppJuceAudioPlay" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="P8p1Lw" name="AppJuceAudioPlay">
+    <GROUP id="{920F0C9C-93A5-200A-8F5A-75B19D679FB3}" name="Source">
+      <FILE id="DTumBp" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="A05tGF" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="OBkjRD" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="AppJuceAudioPlay"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="AppJuceAudioPlay"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JuceProjects/JUCE/9.0.2/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JuceProjects/JUCE/9.0.2/modules"/>
+        <MODULEPATH id="juce_events" path="../../JuceProjects/JUCE/9.0.2/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JuceProjects/JUCE/9.0.2/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JuceProjects/JUCE/9.0.2/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
