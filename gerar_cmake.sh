@@ -137,6 +137,8 @@ target_link_libraries(${PROJECT_TARGET}
         juce::juce_audio_devices
         juce::juce_dsp
         juce::juce_gui_extra
+        juce::juce_gui_basics
+        juce::juce_recommended_config_flags
     PUBLIC
         juce::juce_recommended_config_flags
         juce::juce_recommended_lto_flags

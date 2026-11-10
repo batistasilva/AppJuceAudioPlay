@@ -29,6 +29,9 @@ target_sources(AppJuceAudioPlay
         "Source/MainComponent.cpp"
         "Source/MainComponent.h"
         "Source/Main.cpp"
+        "Source/AudioPlayer.h"
+        "Source/AudioPlayer.cpp"
+
 )
 
 target_compile_definitions(AppJuceAudioPlay
@@ -47,6 +50,9 @@ target_link_libraries(AppJuceAudioPlay
         juce::juce_audio_devices
         juce::juce_dsp
         juce::juce_gui_extra
+        juce::juce_gui_basics
+        juce::juce_recommended_config_flags
+
     PUBLIC
         juce::juce_recommended_config_flags
         juce::juce_recommended_lto_flags
